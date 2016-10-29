@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE components PUBLIC "-//SEASAR//DTD S2Container 2.4//EN"
+	"http://www.seasar.org/dtd/components24.dtd">
+<components>
+	<component class="org.seasar.framework.convention.impl.NamingConventionImpl">
+		<initMethod name="addRootPackageName">
+			<arg>"test_s2dao"</arg>
+		</initMethod>
+	</component>
+
+	<!-- <component name="h2Service" class="test_s2dao.service.impl.H2ServiceImpl"
+		instance="singleton" /> -->
+<!--
+
+	<component name="h2Service" class="test_s2dao.service.impl.H2ServiceImpl"\>
+		<property name="test_s2dao.service.impl.H2ServiceImpl"></property>
+	</component>
+
+	<component name="sampleA" class="sample8.SampleA" instance="prototype" /> -->
+
+
+</components>
